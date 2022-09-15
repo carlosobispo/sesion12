@@ -9,7 +9,7 @@ public class ArithmeticTest {
     @Test
     public void addTest() {
         Arithmetic arith = new Arithmetic(2,3);
-        Assert.assertEquals(arith.add(),5);
+        Assert.assertEquals(arith.add(),6);
     }
 
     @Test
