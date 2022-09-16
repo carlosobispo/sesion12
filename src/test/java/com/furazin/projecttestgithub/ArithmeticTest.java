@@ -10,6 +10,9 @@ public class ArithmeticTest {
     public void addTest() {
         Arithmetic arith = new Arithmetic(2,3);
         Assert.assertEquals(arith.add(),5);
+        
+        arith = new Arithmetic(5,3);
+        Assert.assertEquals(arith.add(),8);
     }
 
     @Test
